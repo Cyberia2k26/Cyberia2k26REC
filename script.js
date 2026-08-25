@@ -272,9 +272,9 @@ var events = [
     desc:'A rapid-fire ideation and pitching challenge where teams present original tech concepts to a panel of judges.',
     date:'11 September 2026', venue:'Charles Correa Hall - REC', time:'11:15 AM - 01:15 PM',
     team:'Max 3 Members', duration:'5 Minutes',
-    lead:{name:'ADHINA SREE', phone:'9080706050'},
+    lead:{name:'ADHINA SHREE', phone:'9080706050'},
     staff:{name:'Mr.K.SIVAKUMAR', phone:'9524193027'},
-    teamMembers:['NISHA V','KIRUTHIGA SRI R S'],
+    teamMembers:['KIRUTHIGA SRI R S'],
     rules:['Presentation time: 5 minutes.','Q&A session: 2 minutes.','The PPT must be original and should not be copied from existing presentations or sources.','Already topic provided in the G Form']
   },
   {
@@ -327,14 +327,14 @@ var events = [
   },
   {
     id:'connectx', name:'ConnectX', type:'Non-Technical',
-    img:'assets/events/connectx.jpg',
+    img:'assets/events/Connectx.jpg',
     preview:'A team-building relay of communication and strategy rounds.',
     desc:'A multi-round team event testing collaboration, communication and quick strategic thinking.',
     date:'11 September 2026', venue:'CSE LAB 1 - REC', time:'02:00 PM - 03:30 PM',
     team:'2-3 Members', duration:'1.5 Hours',
-    lead:{name:'SOWMIYA K', phone:'9220078291'},
-    staff:{name:'Mr. Shanmugam R', phone:'9976092558'},
-    teamMembers:['Priyadharshini P','Ramya R','Agnisri M','Abirami C'],
+    lead:{name:'SOWMIYA K', phone:'9894770705'},
+    staff:{name:'Mrs. Saranya Rani', phone:'8883383724'},
+    teamMembers:['Sujitha A'],
     rules:['Each team must have 4 members.','A whistle will be used during the event.',' The participant who knows the answer first must pick up the whistle and answer.',' Participants must follow the coordinator’s instructions and maintain discipline throughout the event.']
   },
 ];
@@ -355,7 +355,7 @@ events.forEach(function(ev){
       '<p class="event-desc">'+ev.preview+'</p>'+
       '<div class="event-meta"><span>&#128101; '+ev.team+'</span><span>&#9201; '+ev.duration+'</span></div>'+
       '<div class="event-actions">'+
-        '<a href="#register" class="btn btn-primary">Register</a>'+
+        '<a href="https://forms.gle/amWnfjJcyrip1Zgp7" target="_blank" class="btn btn-primary">Register</a>'+
         '<button type="button" class="btn btn-ghost view-details" data-id="'+ev.id+'">View Details</button>'+
       '</div>'+
     '</div>';
