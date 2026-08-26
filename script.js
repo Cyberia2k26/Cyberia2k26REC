@@ -497,6 +497,31 @@ document.addEventListener('keydown', function(e){
   }
 });
 
+/* ---------- FORCE BROCHURE DOWNLOAD (fixes Safari/in-app browsers ignoring 'download' attr) ---------- */
+document.querySelectorAll('a[download]').forEach(function(link){
+  link.addEventListener('click', function(e){
+    e.preventDefault();
+    var url = link.getAttribute('href');
+    var filename = link.getAttribute('download') || 'brochure.jpg';
+    fetch(url)
+      .then(function(res){ return res.blob(); })
+      .then(function(blob){
+        var blobUrl = URL.createObjectURL(blob);
+        var tempLink = document.createElement('a');
+        tempLink.href = blobUrl;
+        tempLink.download = filename;
+        document.body.appendChild(tempLink);
+        tempLink.click();
+        document.body.removeChild(tempLink);
+        setTimeout(function(){ URL.revokeObjectURL(blobUrl); }, 3000);
+      })
+      .catch(function(){
+        // fallback: if fetch fails (e.g. CORS), just open the file normally
+        window.open(url, '_blank');
+      });
+  });
+});
+
 /* ---------- LIGHTWEIGHT PARALLAX ---------- */
 if(!reducedMotion && !isTouch){
   window.addEventListener('scroll', function(){
