@@ -95,11 +95,28 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
   transition:transform .35s var(--ease),box-shadow .35s var(--ease),background .35s var(--ease),letter-spacing .35s var(--ease);
   white-space:nowrap;
 }
+
+/* Register Now — bright, medium-speed blink */
 .btn-primary{
   color:#1a0400;background:var(--grad-cta);
   box-shadow:0 0 0 1px rgba(255,255,255,.4),0 12px 30px -10px rgba(255,26,26,.55);
+  animation: registerBlink 0.9s ease-in-out infinite;
 }
-.btn-primary:hover{transform:translateY(-2px);letter-spacing:.22em;box-shadow:0 0 0 1px rgba(255,255,255,.6),0 18px 40px -8px rgba(255,26,26,.7);}
+@keyframes registerBlink{
+  0%, 100%{
+    box-shadow:0 0 0 1px rgba(255,255,255,.4),0 12px 30px -10px rgba(255,26,26,.55);
+    filter:brightness(1);
+    opacity:1;
+  }
+  50%{
+    box-shadow:0 0 0 4px rgba(255,255,255,1),0 0 50px 14px rgba(255,26,26,1);
+    filter:brightness(1.35);
+    opacity:1;
+  }
+}
+@media (prefers-reduced-motion: reduce){
+  .btn-primary{animation:none;}
+}
 .btn-ghost{
   color:var(--text);border:1px solid var(--line-strong);background:rgba(255,26,26,.05);
   backdrop-filter:blur(8px);
@@ -289,6 +306,17 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
   display:inline-block;opacity:0;transform:translateY(40px) rotateX(60deg);
   background:var(--grad-brand);-webkit-background-clip:text;background-clip:text;color:transparent;
   animation:chReveal .8s var(--ease) forwards;text-shadow:0 0 60px rgba(255,26,26,.25);
+}
+@keyframes logoGlow{
+  0%, 100%{
+    filter:drop-shadow(0 0 10px rgba(255,26,26,.35)) drop-shadow(0 0 25px rgba(255,26,26,.2));
+  }
+  50%{
+    filter:drop-shadow(0 0 25px rgba(255,26,26,.9)) drop-shadow(0 0 55px rgba(255,26,26,.6));
+  }
+}
+@media (prefers-reduced-motion: reduce){
+  .logo-text .ch{animation:chReveal .8s var(--ease) forwards;}
 }
 @keyframes chReveal{to{opacity:1;transform:translateY(0) rotateX(0);}}
 .logo-year{
