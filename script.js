@@ -270,47 +270,47 @@ var events = [
     img:'assets/events/idea.jpg',
     preview:'Pitch your boldest tech idea and defend it under pressure.',
     desc:'A rapid-fire ideation and pitching challenge where teams present original tech concepts to a panel of judges.',
-    date:'11 September 2026', venue:'Charles Correa Hall - REC', time:'11:15 AM - 01:15 PM',
-    team:'Max 3 Members', duration:'5 Minutes',
-    lead:{name:'ADHINA SHREE', phone:'9080706050'},
+    date:'11 September 2026', venue:'Conference Hall - REC', 
+    team:'Max 3 Members', duration:'5 Minutes', 
+    lead:{name:'ADHINA SHREE', phone:'9585620540'},
     staff:{name:'Mr.K.SIVAKUMAR', phone:'9524193027'},
-    teamMembers:['KIRUTHIGA SRI R S'],
-    rules:['Presentation time: 5 minutes.','Q&A session: 2 minutes.','The PPT must be original and should not be copied from existing presentations or sources.','Already topic provided in the G Form']
+    teamMembers:['JOTHIKA P','GAYATHRI S','ANITHA V','SAVITHA S','ELAVARASI R','DHARSHNI A'],
+    rules:['Each team can have a maximum of 3 members.','Presentation time: 5 minutes.','Q&A session: 2 minutes.','deadline for PPT submission is 09-09-2026. Please submit accordingly.']
   },
   {
     id:'logic-hunt', name:'Logic Hunt', type:'Technical',
     img:'assets/events/logichunt.jpg',
     preview:'Solve layered logic and programming puzzles against the clock.',
     desc:'A multi-round problem-solving event testing algorithmic thinking, debugging speed and logical reasoning.',
-    date:'11 September 2026', venue:'Charles Correa Hall - REC', time:'11:15 AM - 01:15 PM',
-    team:'Individual', duration:'1 Hour',
+    date:'11 September 2026', venue:'DS Lab - REC', 
+    team:'Individual', duration:'30 Minutes',
     lead:{name:'RAMYA S', phone:'9597092539'},
     staff:{name:'Mrs.K.USHA NANDHINI', phone:'9094930631'},
-    teamMembers:['VARADHARAJ'],
-    rules:[' No AI tools (ChatGPT, Gemini, Copilot, etc.) are allowed during the competition.',' Participants must use only the permitted programming languages, IDEs, and resources provided by the organizers.','No unfair practices, external assistance, or code copying participants must debug the program independently within the given time.']
+    teamMembers:['VARADHARAJ','DIVYA D','SUBITHA T','BHUVANESHWARI','PRIYADHARSHINI'],
+    rules:['Internet usage is strictly prohibited.','Any form of malpractice lead to disqualification.','Participants must complete the task within the given time limit.','Languages Python,java,C.']
   },
   {
     id:'prompt-arena', name:'Prompt Arena', type:'Technical',
     img:'assets/events/prompt.jpg',
     preview:'Engineer prompts to solve creative and technical AI challenges.',
     desc:'A competitive prompt-engineering event testing precision, creativity and understanding of AI model behavior.',
-    date:'11 September 2026', venue:'CSE LAB 2 - REC', time:'11:15 AM - 01:15 PM',
-    team:'Individual', duration:'1.5 Hours',
+    date:'11 September 2026', venue:'Research Lab - REC',
+    team:'Max 3 Members', duration:'30 Minutes',
     lead:{name:'DHANUSHRAJ P', phone:'7358816874'},
     staff:{name:'Mr.E.JEAN EDWARD ELEMENT', phone:'9655951920'},
-    teamMembers:['NITHISH KUMAR N','BALARAMAN N'],
-    rules:['Individual participation.','Tool: Figma only (provided PCs).','Theme announced 10 min before start.','Rounds: 30 min / 10 min / 45 min.','No plagiarised content.']
+    teamMembers:['NITHISHKUMAR N','BALA P','DEEPAK S','SUBA LAKSHMI','ANANTHI A','VINOTHA M'],
+    rules:['Time Limit: 30 minutes.','Topic: Given on the spot.','Task: Create a webpage using any AI chatbot, Front-end only.','	Evaluation: Based on how well the webpage meets the given criteria.']
   },
   {
     id:'meme-creation', name:'Meme League', type:'Non-Technical',
     img:'assets/events/Memeleague.jpg',
     preview:'Turn tech culture into the funniest, sharpest memes on the floor.',
     desc:'A creative meme-making contest around technology and campus culture, judged on originality and humor.',
-    date:'11 September 2026', venue:'CSE LAB 2 - REC', time:'02:00 PM - 03:30 PM',
-    team:'Individual', duration:'50 Minutes',
+    date:'11 September 2026', venue:'Seminar Hall - REC',
+    team:'Individual', duration:'30 Minutes',
     lead:{name:'RAGUL D', phone:'6369762414'},
-    staff:{name:'Mrs.R.SARANYA RANI', phone:''},
-    teamMembers:['Kansiya K','Jenatneka G','Anusiya A','Sowmiya B'],
+    staff:{name:'Mrs.S.Vijayakumari', phone:'9944212958'},
+    teamMembers:['SANJAY S','LENINKUMAR R','GOWTHAMAN'],
     rules:['🎯 Theme-based: Memes must match the given topic.',' ⌛ Time limit: 30 minutes to create and submit.','🧠  Judging Criteria: Creativity, relevance to theme, humor, and originality.','🚫  Late submissions will not be accepted.','✅  Judges decisions are final.']
   },
   {
@@ -318,24 +318,24 @@ var events = [
     img:'assets/events/Mysteryhunt.jpg',
     preview:'Crack clues, chase leads and race across campus to the finish.',
     desc:'A campus-wide treasure hunt combining puzzles, riddles and physical checkpoints against the clock.',
-    date:'11 September 2026', venue:'Newton Hall - REC', time:'11:15 AM - 01:15 PM',
-    team:'1-4 Members', duration:'10 Minutes',
+    date:'11 September 2026', venue:'Admin Block GoundFloor - REC', 
+    team:'Max 4 Members', duration:'45 Minutes',
     lead:{name:'VISHAL', phone:'6383670409'},
-    staff:{name:'Mrs. Kavitha T', phone:'9486306901'},
-    teamMembers:['Niranjan M','Swetha K','Hema T','Kirthika V'],
+    staff:{name:'Mrs.K.Susila Rani', phone:'9486306901'},
+    teamMembers:['ANBALAGAN A','FEROSKHAN I','JOHNSY','PRAGATHI R','PRADAPMAVEEN M'],
     rules:['Finish within the given time.','Don’t use any devices.','No arguments or fighting with other groups.','Additional Rules (To be announced on the spot)']
   },
   {
     id:'connectx', name:'ConnectX', type:'Non-Technical',
-    img:'assets/events/Connectx.jpg',
+    img:'assets/events/ConnectX.jpg',
     preview:'A team-building relay of communication and strategy rounds.',
     desc:'A multi-round team event testing collaboration, communication and quick strategic thinking.',
-    date:'11 September 2026', venue:'CSE LAB 1 - REC', time:'02:00 PM - 03:30 PM',
-    team:'2-3 Members', duration:'1.5 Hours',
+    date:'11 September 2026', venue:'OS LAB - REC',
+    team:'Max 4 Members', duration:'45 Minutes',
     lead:{name:'SOWMIYA K', phone:'9894770705'},
-    staff:{name:'Mrs. Saranya Rani', phone:'8883383724'},
-    teamMembers:['Sujitha A'],
-    rules:['Each team must have 4 members.','A whistle will be used during the event.',' The participant who knows the answer first must pick up the whistle and answer.',' Participants must follow the coordinator’s instructions and maintain discipline throughout the event.']
+    staff:{name:'Mrs.R.Saranya Rani', phone:'8883383724'},
+    teamMembers:['SUJITHA A','YUVASRI K','SINDHUJA R','MOHANAPRIYA P','SUBASH'],
+    rules:['A whistle will be used during the event.',' The participant who knows the answer first must pick up the whistle and answer.',' Participants must follow the coordinator’s instructions and maintain discipline throughout the event.']
   },
 ];
 
@@ -502,7 +502,7 @@ document.querySelectorAll('a[download]').forEach(function(link){
   link.addEventListener('click', function(e){
     e.preventDefault();
     var url = link.getAttribute('href');
-    var filename = link.getAttribute('download') || 'brochure.jpg';
+    var filename = link.getAttribute('download') || 'Brochure.jpg';
     fetch(url)
       .then(function(res){ return res.blob(); })
       .then(function(blob){
