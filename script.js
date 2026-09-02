@@ -430,12 +430,12 @@ eventModal.addEventListener('click', function(e){ if(e.target === eventModal) cl
 
 /* ---------- GALLERY ---------- */
 var galleryData = [
-  {id:1, src:'assets/gallery/Gallery1.jpg', title:'Campus', cat:'Campus'},
-  {id:2, src:'assets/gallery/Gallery2.jpg', title:'Cyberia', cat:'Cyberia'},
-  {id:3, src:'assets/gallery/Gallery3.jpg', title:'Technical Events', cat:'Technical Events'},
-  {id:4, src:'assets/gallery/Gallery4.jpg', title:'Students', cat:'Students'},
-  {id:5, src:'assets/gallery/Gallery5.jpg', title:'Previous Symposiums', cat:'Previous Symposiums'},
-  {id:6, src:'assets/gallery/Gallery5.jpg', title:'Campus', cat:'Campus'}
+  {id:1, src:'assets/gallery/Gallery1.jpg', title:'', cat:'Campus'},
+  {id:2, src:'assets/gallery/Gallery2.jpg', title:'', cat:'Cyberia'},
+  {id:3, src:'assets/gallery/Gallery3.jpg', title:'', cat:'Technical Events'},
+  {id:4, src:'assets/gallery/Gallery4.jpg', title:'', cat:'Students'},
+  {id:5, src:'assets/gallery/Gallery5.jpg', title:'', cat:'Previous Symposiums'},
+  {id:6, src:'assets/gallery/Gallery6.jpg', title:'', cat:'Campus'}
 ];
 var galleryGrid = document.getElementById('galleryGrid');
 galleryData.forEach(function(g, idx){
