@@ -445,7 +445,7 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid 
    ============================================================ */
 .dept-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
 .dept-card{
-  padding:44px 34px;min-height:280px;display:flex;flex-direction:column;justify-content:flex-end;
+  padding:44px 34px;min-height:200px;display:flex;flex-direction:column;justify-content:flex-end;
   overflow:hidden;transition:transform .5s var(--ease);
 }
 .dept-card:hover{transform:translateY(-8px);}
