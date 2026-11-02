@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cyberia2k26-rec.vercel.app/sitemap.xml
